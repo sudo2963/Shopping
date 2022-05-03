@@ -323,6 +323,7 @@ public class UserView {
 
 	public void loginMenu() {
 		// TODO Auto-generated method stub
+		System.out.println("第二个测试");
 		System.out.println("----- 欢迎登录 ------");
 		System.out.println("---请输入用户代码----");
 		String uName=scanner.next();
