@@ -32,6 +32,7 @@ public class Index {
 		System.out.println("     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         ");
 		System.out.println("                    佛祖保佑         永无BUG         ");
 		//进入首页
+		System.out.println("这是一个测试");
 		UserView view = new UserView();
 		view.login();
 		ProductView viewP = new ProductView();
