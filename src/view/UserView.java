@@ -328,13 +328,13 @@ public class UserView {
 		String uName=scanner.next();
 		System.out.println("---请输入用户密码名----");
 		String uPwd=scanner.next();
-		System.out.println(String.format("您输入的用户id：%s 密码：****  正在登录中...", uName));
+		System.out.println(String.format("您输入的用户代码：%s 密码：****  正在登录中...", uName));
 		//login 
 		user =userService.login(uName, uPwd);
 		if(user!=null) {
 			index();
 		}else {
-			System.out.println("用户名或密码输入错误");
+			System.out.println("用户代码或密码输入错误");
 		}
 		
 
